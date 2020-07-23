@@ -12,6 +12,6 @@ class DemoApplicationTests {
     @Test
     void contextLoads() {
         System.out.println(mapper.select().get(3).getName());
-        System.out.println("develop2");
+        System.out.println("develop3");
     }
 }
