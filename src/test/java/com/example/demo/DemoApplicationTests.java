@@ -12,7 +12,7 @@ class DemoApplicationTests {
     @Test
     void contextLoads() {
         System.out.println(mapper.select().get(3).getName());
-        System.out.println("XIXI");
+        System.out.println("KAORI");
     }
 
 }
