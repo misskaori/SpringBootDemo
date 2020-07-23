@@ -11,7 +11,7 @@ class DemoApplicationTests {
     TestMapper mapper;
     @Test
     void contextLoads() {
-//        System.out.println(mapper.select().get(3).getName());
+        System.out.println(mapper.select().get(3).getName());
         System.out.println("master");
     }
 }
